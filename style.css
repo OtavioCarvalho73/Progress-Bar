@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.progress-container {
+    background-color: #ccc;
+    height: 4px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.progress-bar {
+    background-color: #007bff;
+    height: 100%;
+    width: 0;
+    transition: width 0.3s ease;
+}
+
+.content {
+    height: 2000px;
+}
